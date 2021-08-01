@@ -70,9 +70,9 @@ export default {
     bodyParser.urlencoded({extended: true}),
     '~/api'
   ],
-  server: {     
-    port: 3000, // default: 3000     
-    host: 'localhost', // default: localhost   
-  },
+  // server: {     
+  //   port: 3000, // default: 3000     
+  //   host: 'localhost', // default: localhost   
+  // },
   ...routerBase
 }
