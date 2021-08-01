@@ -12,7 +12,7 @@ process.env.DEPLOY_ENV === 'GH_PAGES'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Covid-19-Project',
+    title: 'Covid19-Project',
     htmlAttrs: {
       lang: 'en'
     },
