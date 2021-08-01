@@ -1,13 +1,13 @@
 const bodyParser = require('body-parser')
 
-const routerBase = 
-process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: 'Covid'
-        }
-      }
-    : {}
+// const routerBase = 
+// process.env.DEPLOY_ENV === 'GH_PAGES'
+//     ? {
+//         router: {
+//           base: 'Covid'
+//         }
+//       }
+//     : {}
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -74,5 +74,5 @@ export default {
   //   port: 3000, // default: 3000     
   //   host: 'localhost', // default: localhost   
   // },
-  ...routerBase
+  // ...routerBase
 }
